@@ -1,0 +1,125 @@
+html 
+{
+	height:100%;
+}
+
+body 
+{
+	font-family:Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height:100%;
+	width:100%;
+	color: rgb(53,73,94);
+	background-color: rgba(235, 235, 235,0.5);
+}
+
+h1
+{
+	text-align: center;
+	font-weight: 200;
+	font-size:  70px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+h2
+{
+	text-align: center;
+	font-weight: 200;
+	font-size:  40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+header
+{
+	margin-bottom: 50px;
+}
+
+b
+{
+	font-weight: 400;
+	font-size:  25px;
+	line-height: 50px;
+}
+
+p
+{
+	padding: 1% 25% 1% 25%;
+	text-align: justify;
+	line-height: 23px;
+	letter-spacing: 0.5px;
+}
+
+.app-icon
+{
+	margin-top: 13px;
+	width: 64px;
+	height: 64px;
+	border-radius: 5px;
+}
+
+.social-links
+{
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.apps
+{
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.twitter
+{
+	background: url('/images/twitter.png') center no-repeat;
+	background-size: 32px 32px;
+	background-color: rgb(53,73,94);
+	width: 32px;
+	height: 32px;
+	margin: 3px 13px 3px 3px;
+	float: left;
+	border-radius: 3px;
+}
+
+.github
+{
+	background: url('/images/github.png') center no-repeat;
+	background-size: 32px 32px;
+	background-color: rgb(53,73,94);
+	width: 32px;
+	height: 32px;
+	margin: 3px 13px 3px 3px;
+	float: left;
+	border-radius: 3px;
+}
+
+.e-mail
+{
+	background: url('/images/mail.png') center no-repeat;
+	background-size: 32px 32px;	
+	background-color: rgb(53,73,94);
+	width: 32px;
+	height: 32px;
+	margin: 3px 13px 3px 3px;
+	float: left;
+	border-radius: 3px;
+}
+
+@media screen and (max-width: 750px) 
+{
+	p
+	{
+		padding: 1% 13% 1% 13%;
+	}
+}
+
+@media screen and (max-width: 600px) 
+{
+	p
+	{
+		padding: 1% 7% 1% 7%;
+	}
+}
